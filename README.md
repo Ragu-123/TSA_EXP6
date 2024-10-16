@@ -6,7 +6,7 @@
 ### AIM:
    To implement the Holt Winters Method Model using Python.
 ### ALGORITHM:
-1. Load and resample the gold price data to monthly frequency, selecting the 'Daily_MInimum_Temperatures' column.
+1. Load and resample the temperatures data to monthly frequency, selecting the 'Daily_MInimum_Temperatures' column.
 2. Scale the data using Minmaxscaler then split into training (80%) and testing (20%) sets.
 3. Fit an additive Holt-Winters model to the training data and forecast on the test data.
 4. Evaluate model performance using MAE and RMSE, and plot the train, test, and prediction results.
